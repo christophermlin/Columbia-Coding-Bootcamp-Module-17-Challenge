@@ -47,6 +47,7 @@ A RESTful API for a social network web application using Express.js, MongoDB, an
 - All timestamps are formatted as locale strings in API responses.
 - Deleting a user also deletes their associated thoughts.
 - All endpoints return JSON.
+- Link to video demonstration: <https://drive.google.com/file/d/1ial8c45xhmF43Yfj-raDdClwqgvQpVyO/view>
 
 ---
 © 2025 Christopher Lin. Bootcamp Module 17 NoSQL Challenge.
