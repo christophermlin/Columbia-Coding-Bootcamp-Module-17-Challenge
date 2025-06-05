@@ -43,24 +43,6 @@ A RESTful API for a social network web application using Express.js, MongoDB, an
 - **Thought:** thoughtText, createdAt (formatted), username, reactions (array), virtual `reactionCount`
 - **Reaction:** reactionId, reactionBody, username, createdAt (formatted)
 
-## Testing Checklist (Insomnia)
-- [ ] Start the server and connect to MongoDB
-- [ ] Create a user (POST /api/users)
-- [ ] Get all users (GET /api/users)
-- [ ] Get a single user by ID (GET /api/users/:userId)
-- [ ] Update a user (PUT /api/users/:userId)
-- [ ] Delete a user (DELETE /api/users/:userId)
-- [ ] Add a friend (POST /api/users/:userId/friends/:friendId)
-- [ ] Remove a friend (DELETE /api/users/:userId/friends/:friendId)
-- [ ] Create a thought (POST /api/thoughts)
-- [ ] Get all thoughts (GET /api/thoughts)
-- [ ] Get a single thought (GET /api/thoughts/:thoughtId)
-- [ ] Update a thought (PUT /api/thoughts/:thoughtId)
-- [ ] Delete a thought (DELETE /api/thoughts/:thoughtId)
-- [ ] Add a reaction (POST /api/thoughts/:thoughtId/reactions)
-- [ ] Remove a reaction (DELETE /api/thoughts/:thoughtId/reactions/:reactionId)
-- [ ] Confirm virtuals (friendCount, reactionCount) and formatted dates in responses
-
 ## Notes
 - All timestamps are formatted as locale strings in API responses.
 - Deleting a user also deletes their associated thoughts.
